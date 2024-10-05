@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 70px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.random > button {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  transition: 1s ease;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: none;
+  display: block;
+  justify-content: space-between;
+  color: gold;
+}
+
+.random {
+  margin-left: 40px;
+}
+
+.random > button:hover {
+  transition: 1s ease;
+  background-color: rgb(176, 122, 226);
+  color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  background: linear-gradient(to right, blue, green);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 70px;
+}
+
+.random > h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
