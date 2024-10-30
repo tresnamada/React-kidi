@@ -6,7 +6,7 @@ const Random = () => {
     const [gif, setGif] = useState("");
 
     const response = async () => {
-        const url = 'https://api.giphy.com/v1/gifs/random?api_key=YHxi9b0crk6vDEw4ZGZZ9Mln8pbyjenm';
+        const url = '';
         const { data } = await axios.get(url);
         const image = data.data.images.downsized_large.url;
         setGif(image);
